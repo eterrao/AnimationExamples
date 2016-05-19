@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_animation_views_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="210dp"
+            android:layout_weight="1"
+            android:background="@drawable/ps__bg_loading" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="210dp"
+            android:layout_weight="1"
+            android:background="@drawable/ps__bg_loading" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="210dp"
+            android:layout_weight="1"
+            android:background="@drawable/ps__bg_loading" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="210dp"
+            android:layout_weight="1"
+            android:background="@drawable/ps__bg_loading" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="210dp"
+            android:layout_weight="1"
+            android:background="@drawable/ps__bg_loading" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="210dp"
+            android:layout_weight="1"
+            android:background="@drawable/ps__bg_loading" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_animation_views_right"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="210dp"
+            android:layout_weight="1"
+            android:background="@drawable/ps__bg_loading" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="210dp"
+            android:layout_weight="1"
+            android:background="@drawable/ps__bg_loading" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="210dp"
+            android:layout_weight="1"
+            android:background="@drawable/ps__bg_loading" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="210dp"
+            android:layout_weight="1"
+            android:background="@drawable/ps__bg_loading" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="210dp"
+            android:layout_weight="1"
+            android:background="@drawable/ps__bg_loading" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="210dp"
+            android:layout_weight="1"
+            android:background="@drawable/ps__bg_loading" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_start_animation"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="start" />
+
+        <Button
+            android:id="@+id/btn_stop_animation"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="stop" />
+
+    </LinearLayout>
+
+</RelativeLayout>
