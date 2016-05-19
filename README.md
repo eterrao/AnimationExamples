@@ -4,4 +4,4 @@
 
 #### Demo GIF:
 	
-![Loading](https://raw.githubusercontent.com/eterrao/AnimationExamples/master/periscopeLoading.gif)	
+![Loading](https://raw.githubusercontent.com/eterrao/AnimationExamples/master/periscopeLoading.gif)
