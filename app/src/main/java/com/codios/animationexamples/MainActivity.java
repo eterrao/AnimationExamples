@@ -1,5 +1,6 @@
 package com.codios.animationexamples;
 
+import android.animation.Animator;
 import android.animation.ObjectAnimator;
 import android.app.Activity;
 import android.os.Bundle;
